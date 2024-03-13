@@ -1,6 +1,5 @@
 
 """
-
 This code reads in three sets of data - weather@home data (both anthropogenic and natural forcing) and ERA5 data.
 It preprocesses this data to prepare it for input into a Self-Organizing Map (SOM) algorithm. The datasets consist of Mean Sea Level Pressure (MSLP) data covering a geographic subset over New Zealand. The code flattens the data from three dimensions (latitude, longitude, time) to two dimensions (spatial, time) before feeding it into the SOM algorithm.
 
